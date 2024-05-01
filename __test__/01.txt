@@ -1,0 +1,19 @@
+Adobe After Effects 8.0 Keyframe Data
+
+	Units Per Second	24
+	Source Width	1920
+	Source Height	1080
+	Source Pixel Aspect Ratio	1
+	Comp Pixel Aspect Ratio	1
+
+Time Remap
+	Frame	seconds
+	0	0
+	2	9
+	4	10
+	6	8
+	8	9
+	10	1
+	12	3
+
+End of Keyframe Data
