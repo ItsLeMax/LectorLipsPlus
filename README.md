@@ -8,7 +8,6 @@ Converts Character Animator mouth data to Minecraft Blockbuster Mod NBT data.
 ## Requirements
 - Adobe Character Animator Pro (not the free version) from `creative cloud all applications` (requires a [subscription](https://www.adobe.com/de/creativecloud/plans.html), cracks mostly do not work - trust me)
 - Python (executable [here](https://www.python.org/downloads/))
-- Windows
 
 ## Setup
 1. WiP
