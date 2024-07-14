@@ -11,7 +11,11 @@ Converts multiple Character Animator mouth data files to Minecraft Blockbuster M
 - Python (executable [here](https://www.python.org/downloads/))
 
 ## Setup
+
 > [!NOTE]
+> File imports can usually be done with `drag 'n drop` or something similar to `File > Import` inside the top navigator
+> If any window mentioned is missing it can be activated somewhere inside `Window`
+
 1. Copy the (renamable) `mouth` folder from `/assets/` somewhere into the blockbuster models folder with the basic path being `%appdata%\.minecraft\config\blockbuster\models`
 2. Open `settings.ini` inside `/run/` and write down the path from above after `b.a:`
 3. Open `Audition` with the audio file you want animations from (in this case one long raw recording that has multiple lines it it)
