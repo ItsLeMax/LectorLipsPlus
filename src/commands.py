@@ -6,7 +6,7 @@ import json
 
 __author__ = "Christian F. (known as Chryfi)"
 __copyright__ = "Copyright 2022, LectorLips"
-__credits__ = ["Christian F. (known as Chryfi)", "Florian Torgau"]
+__credits__ = ["Christian F. (known as Chryfi)", "Florian Torgau", "ItsLeMax"]
 __maintainer__ = "Christian F. (known as Chryfi)"
 __status__ = "Production"
 __version__ = "1.1"
@@ -93,7 +93,7 @@ class CreateSequencerNBT(Command):
         fps = None
         keyframes = None
 
-        with open(self.filePath, 'r') as file:
+        with open(self.filePath, 'r', encoding='utf-8') as file:
             while True:
                 line = file.readline()
 
@@ -116,11 +116,16 @@ class CreateSequencerNBT(Command):
             raise CommandException("The keyframes were not found or are empty. The keyframes are usually located at \"" + time_remap_marker + "\"")
 
         sequencerNBT = self.convert_to_sequencer_morph(keyframes, fps)
+        export_directory = "../export"
+        original_file_name = os.path.basename(self.filePath)
 
-        with open(datetime.now().strftime("%Y-%m-%d_%H.%M.%S") + "_output.txt", 'x') as f:
+        if not os.path.exists(export_directory):
+            os.makedirs(export_directory)
+
+        with open(os.path.join(export_directory, "mouth_" + original_file_name), 'x', encoding='utf-8') as f:
             f.write(sequencerNBT)
 
-        print("File was successfully created.")
+        print(f"> {original_file_name}")
 
     def convert_to_sequencer_morph(self, keyframes: list, fps: int) -> str:
         viseme_mapping = self.load_viseme_mapping()
@@ -279,13 +284,15 @@ class CreateVisemeMapping(Command):
 
 
 class VisemeMappingFile:
-    fileName = "viseme_mapping.json"
+    fileName = os.path.join(os.path.dirname(__file__), "viseme_mapping.json")
+
     @staticmethod
     def write(mapping: list):
         VisemeMappingFile.write(mapping, VisemeMappingFile.fileName)
 
     @staticmethod
     def write(mapping: list, file_name: str):
+        file_name = os.path.abspath(file_name)
         if exists(file_name):
             os.remove(file_name)
 
@@ -294,10 +301,11 @@ class VisemeMappingFile:
 
     @staticmethod
     def read():
-        VisemeMappingFile.read(VisemeMappingFile.fileName)
+        return VisemeMappingFile.read(VisemeMappingFile.fileName)
 
     @staticmethod
     def read(file_name: str) -> list:
+        file_name = os.path.abspath(file_name)
         if not exists(file_name):
             return None
 
