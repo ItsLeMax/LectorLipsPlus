@@ -13,7 +13,7 @@ Converts multiple Character Animator mouth data files to Minecraft Blockbuster M
 ## Setup
 
 > [!NOTE]
-> File imports can usually be done with `drag 'n drop` or something similar to `File > Import` inside the top navigator
+> File imports can usually be done with `drag 'n drop` or something similar to `File > Import` inside the top navigator\
 > If any window mentioned is missing it can be activated somewhere inside `Window`
 
 1. Copy the (renamable) `mouth` folder from `/assets/` somewhere into the blockbuster models folder with the basic path being `%appdata%\.minecraft\config\blockbuster\models`
