@@ -9,7 +9,7 @@ Converts Character Animator mouth data files to Minecraft Blockbuster Mod NBT da
 - Adobe Audition
 
 > [!NOTE]
-> `Adobe Character Animator` (`Starter`) can not create empty project files but is able to open those. This repository contains a template so there is no necessaty to subscribe to Adobe Creative Cloud.
+> `Adobe Character Animator Starter` can not create project files but is able to open those. This repository contains one so there is no necessaty to subscribe to Adobe Creative Cloud.
 
 ## Setup
 
