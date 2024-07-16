@@ -1,20 +1,17 @@
 # LectorLipsPlus
-Converts multiple Character Animator mouth data files to Minecraft Blockbuster Mod NBT data at once
-
-> [!NOTE]
-> This fork is an edit that is based on personal preferences.
+Converts Character Animator mouth data files to Minecraft Blockbuster Mod NBT data files, featuring the conversion of entire folders at once, a config file for repetitive arguments, premade assets, a clean folder structure and a step-by-step guide for easy use
 
 ## Requirements
-- Adobe Character Animator (Free `Starter` Version working aswell) from `creative cloud`\
-(requires a [subscription](https://www.adobe.com/de/creativecloud/plans.html), cracks mostly do not work - trust me)
-- Any capable Audio Editor (Audition in this guide)
+> ...that are necessary:
+- Adobe Character Animator
 - Python (executable [here](https://www.python.org/downloads/))
-
-## Setup
+> ...that has working alternatives:
+- Adobe Audition
 
 > [!NOTE]
-> File imports inside Adobe applications can usually be done with `drag 'n drop` or something similar to `File > Import` inside the top navigator\
-> If any window mentioned is missing it can be activated somewhere inside `Window`
+> `Adobe Character Animator` (`Starter`) can not create empty project files but is able to open those. This repository contains one so there is no necessaty to subscribe to Adobe Creative Cloud
+
+## Setup
 
 1. Download the source code by clicking on `<> Code` & `Download ZIP` and extract the content\
 ![download](https://github.com/ItsLeMax/File-Mass-Renaming/assets/80857459/847b4ed1-b820-4479-8a0b-a48bcfe55108)
@@ -44,3 +41,5 @@ Converts multiple Character Animator mouth data files to Minecraft Blockbuster M
 
 ## Credits to Chryfi
 This project is a fork from [Chrify's LectorLips](https://github.com/Chryfi/LectorLips). Feel free to leave some love. His work is awesome. ❤️
+
+![LectorLipsLogo](https://github.com/user-attachments/assets/bba99c8f-8ad1-491c-a918-d70b8306cef6)
