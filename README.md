@@ -1,5 +1,12 @@
 # LectorLipsPlus
-Converts Character Animator mouth data files to Minecraft Blockbuster Mod NBT data files, featuring the conversion of entire folders at once, a config file for repetitive arguments, premade assets, a clean folder structure and a step-by-step guide for easy use
+Converts Character Animator mouth data files to Minecraft Blockbuster Mod NBT data files with several benefits
+
+## Changes compared to the original LectorLips
+- option to convert entire folders at once, not only a single file
+- config file for one repetitive argument
+- premade assets
+- clean folder structure
+- step-by-step guide for easy use
 
 ## Requirements
 > ...that are necessary:
