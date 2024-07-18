@@ -3,10 +3,11 @@ Converts Character Animator mouth data files to Minecraft Blockbuster Mod NBT da
 
 ## Changes compared to the original LectorLips
 - option to convert entire folders at once, not only a single file
-- config file for one repetitive argument
+- template project for `Adobe Character Animator` and therefore no necessaty to subscribe to Adobe Creative Cloud.
 - premade assets
-- clean folder structure
 - step-by-step guide for easy use
+- config file for one repetitive argument
+- clean folder structure
 
 ## Requirements
 > ...that are necessary:
@@ -14,9 +15,6 @@ Converts Character Animator mouth data files to Minecraft Blockbuster Mod NBT da
 - Python (executable [here](https://www.python.org/downloads/))
 > ...that has working alternatives:
 - Adobe Audition (subscription [here](https://www.adobe.com/de/creativecloud/plans.html))
-
-> [!NOTE]
-> `Adobe Character Animator Starter` can not create project files but is able to open those. This repository contains one so there is no necessaty to subscribe to Adobe Creative Cloud.
 
 ## Setup
 
