@@ -45,6 +45,6 @@ Converts Character Animator mouth data files to Minecraft Blockbuster Mod NBT da
 24. Choose the newly created animated mouth inside `Recent Morphs`
 
 ## Credits to Chryfi
-This project is a fork from [Chrify](https://github.com/Chrify/)'s [LectorLips](https://github.com/Chryfi/LectorLips). Feel free to leave some love. His work is awesome. ❤️
+This project is a fork from [Chryfi](https://github.com/Chryfi/)'s [LectorLips](https://github.com/Chryfi/LectorLips). Feel free to leave some love. His work is awesome. ❤️
 
 ![LectorLipsLogo](https://github.com/user-attachments/assets/bba99c8f-8ad1-491c-a918-d70b8306cef6)
