@@ -13,7 +13,7 @@ Converts Character Animator mouth data files to Minecraft Blockbuster Mod NBT da
 > ...that are necessary:
 - Adobe Character Animator (instant download executable [here](https://creativecloud.adobe.com/apps/download/character-animator))
 - Python (executable [here](https://www.python.org/downloads/))
-> ...that has working alternatives:
+> ...that have working alternatives:
 - Adobe Audition (subscription [here](https://www.adobe.com/de/creativecloud/plans.html))
 - 7-Zip (executable [here](https://7-zip.de/download.html))
 
