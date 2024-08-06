@@ -122,7 +122,7 @@ class CreateSequencerNBT(Command):
         if not os.path.exists(export_directory):
             os.makedirs(export_directory)
 
-        with open(os.path.join(export_directory, "mouth_" + original_file_name), 'x', encoding='utf-8') as f:
+        with open(os.path.join(export_directory, original_file_name), 'x', encoding='utf-8') as f:
             f.write(sequencerNBT)
 
         print(f"> {original_file_name}")
