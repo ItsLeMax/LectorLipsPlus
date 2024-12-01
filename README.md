@@ -3,17 +3,17 @@
 Converts Character Animator mouth data files to Minecraft Blockbuster Mod NBT data files with several benefits
 
 ## Changes compared to the original LectorLips
-- option to convert entire folders at once
+- option to convert entire folders at once\
 ![1 0 0-folders](https://github.com/user-attachments/assets/6a145327-b157-44e5-b1e3-434e93915868)
-- template project for `Adobe Character Animator` and therefore no necessaty to subscribe to `Adobe CC`.
+- template project for `Adobe Character Animator` and therefore no necessaty to subscribe to `Adobe CC`\
 ![1 1 0-template](https://github.com/user-attachments/assets/c26714a6-5a8e-4833-85cd-daefe607ef22)
 - premade assets
 ![1 0 0-assets](https://github.com/user-attachments/assets/321d3f17-24db-4a43-87f5-68375af8fdd7)
-- step-by-step guide for easy use
+- step-by-step guide for easy use\
 ![1 0 0-readme](https://github.com/user-attachments/assets/c9090e9f-822f-4b7a-8116-28feb01e6c75)
-- config file for one repetitive argument
+- config file for one repetitive argument\
 ![1 0 0-config](https://github.com/user-attachments/assets/292491fc-1b77-41d2-a367-f6b417b09cca)
-- clean folder structure
+- clean folder structure\
 ![1 0 0-structure](https://github.com/user-attachments/assets/6877cc6b-169c-40f5-96e8-b890c819a0d9)
 
 ## Requirements
