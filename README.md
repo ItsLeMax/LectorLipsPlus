@@ -9,7 +9,7 @@ Converts Character Animator mouth data files to Minecraft Blockbuster Mod NBT da
 ![1 1 0-template](https://github.com/user-attachments/assets/c26714a6-5a8e-4833-85cd-daefe607ef22)
 - premade assets
 ![1 0 0-assets](https://github.com/user-attachments/assets/321d3f17-24db-4a43-87f5-68375af8fdd7)
-- step-by-step guide for easy use\
+- [step-by-step guide](https://github.com/ItsLeMax/LectorLipsPlus?tab=readme-ov-file#setup) for easy use\
 ![1 0 0-readme](https://github.com/user-attachments/assets/c9090e9f-822f-4b7a-8116-28feb01e6c75)
 - config file for one repetitive argument\
 ![1 0 0-config](https://github.com/user-attachments/assets/292491fc-1b77-41d2-a367-f6b417b09cca)
