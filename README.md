@@ -1,6 +1,7 @@
 # LectorLipsPlus
 
 Converts Character Animator mouth data files to Minecraft Blockbuster Mod NBT data files with several benefits
+![1 0 0-lips](https://github.com/user-attachments/assets/c611866c-97c8-4dea-9337-b6ca68aa3c5f)
 
 ## Changes compared to the original LectorLips
 
